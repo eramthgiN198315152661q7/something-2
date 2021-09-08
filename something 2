@@ -1,0 +1,7 @@
+while true do
+    wait()
+local kick = game.Workspace.NewBadPcMan4:FindFirstChild("AntiTool")
+if kick then
+    kick:Remove()
+end
+end
