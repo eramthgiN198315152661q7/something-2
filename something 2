@@ -1,6 +1,6 @@
 while true do
     wait()
-local kick = game.Workspace.NewBadPcMan4:FindFirstChild("AntiTool")
+local kick = game.Players.LocalPlayer.Character:FindFirstChild("AntiTool")
 if kick then
     kick:Remove()
 end
