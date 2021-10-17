@@ -1,6 +1,8 @@
+local plrrrr = game.Players.LocalPlayer
+local charac = plrrrr.Character
 while true do
     wait()
-local kick = game.Players.LocalPlayer.Character:FindFirstChild("AntiTool")
+local kick = charac:FindFirstChild("AntiTool")
 if kick then
     kick:Remove()
 end
